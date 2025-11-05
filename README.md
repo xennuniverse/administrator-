@@ -5,6 +5,16 @@ administrator server
 ```bash
 sudo useradd -m user
 ```
-• **useradd**: menambahkan user baru
+• **useradd** : menambahkan user baru
 
-• **-m**: untuk membuat direktori home untuk pengguna baru
+• **-m** : untuk membuat direktori home untuk pengguna baru
+
+**memberikan hak administrator untuk user baru**
+```bash
+sudo usermod -aG sudo user
+```
+• **usermod** : perintah untuk mengubah pengaturan pengguna 
+
+• **-aG** : untuk menambahkan pengguna ke grup tanpa menghapusnya dari grup lainny
+
+• **sudo** : untuk memberikan akses administrator ke user tersebut agar dapat menjalankan sudo
