@@ -1,23 +1,23 @@
 # administrator-
 administrator server
 # menambah user dan akses
-**add user** :
+**add user** 
 ```bash
 sudo useradd -m user
 ```
-• **useradd** : menambahkan user baru
+- **useradd** menambahkan user baru
 
-• **-m** : untuk membuat direktori home untuk pengguna baru
+- **-m** untuk membuat direktori home untuk pengguna baru
 
 **memberikan hak administrator untuk user baru**
 ```bash
 sudo usermod -aG sudo user
 ```
-- **usermod** : perintah untuk mengubah pengaturan pengguna 
+- **usermod** perintah untuk mengubah pengaturan pengguna 
 
-- **-aG** : untuk menambahkan pengguna ke grup tanpa menghapusnya dari grup lainny
+- **-aG** untuk menambahkan pengguna ke grup tanpa menghapusnya dari grup lainny
 
-- **sudo** : untuk memberikan akses administrator ke user tersebut agar dapat menjalankan sudo
+- **sudo** untuk memberikan akses administrator ke user tersebut agar dapat menjalankan sudo
 
 **password untuk user**
 ```bash
@@ -25,4 +25,4 @@ sudo passwd user
 ```
 - **passwd** untuk mengatur password pengguna 
 
-+ **user** adalah pengguna yang dimaksud atau yang akan di ganti password nya
+- **user** adalah pengguna yang dimaksud atau yang akan di ganti password nya
