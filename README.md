@@ -26,3 +26,4 @@ sudo passwd user
 - **passwd** untuk mengatur password pengguna 
 
 - **user** adalah pengguna yang dimaksud atau yang akan di ganti password nya
+<img src="IMG.jpg" alt="hasil berikut" width="600">
